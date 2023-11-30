@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <meta
+                        name="viewport"
+                        content="width=device-width, initial-scale=1.0"
+                />
+                <title>Responsive Qr code</title>
+                <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+                <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon-32x32.png') }}" type="image/x-icon">
+        </head>
+        <body>
+                <div class="main">
+                        <div class="qr_code">
+                                <img src="{{ url_for('static', filename='images/image-qr-code.png') }}" alt="" />
+                                <h1>
+                                        Improve your front-end skills by
+                                        building projects
+                                </h1>
+                                <h2>
+                                        Scan the Qr code to visit Frontend
+                                        Mentor and take your coding skills to
+                                        the next level
+                                </h2>
+                        </div>
+                </div>
+        </body>
+</html>
